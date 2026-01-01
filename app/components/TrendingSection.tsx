@@ -14,13 +14,13 @@ export default function TrendingSection() {
           "
         ></div>
 
-        <div className="relative z-10 flex items-center h-full px-6 md:px-16 text-white">
+        <div className="relative z-30 flex items-center h-full px-6 md:px-16 text-white">
           <h2 className="text-xl md:text-4xl">Trending Now</h2>
         </div>
       </div>
 
       {/* Carousel section */}
-      <div className="relative z-20 -mt-30 px-6 md:px-16">
+      <div className="relative  -mt-40 px-6 md:px-16">
         <SparksCarouselDemo />
       </div>
     </section>

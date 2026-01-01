@@ -85,24 +85,24 @@ export const SparksCarousel = React.forwardRef<
         <div className="relative">
           <div
             ref={carouselRef}
-            className="flex w-full space-x-4 overflow-x-hidden pb-4 scrollbar-hide"
+            className="flex w-full space-x-3 md:space-x-6 overflow-x-hidden pb-4 scrollbar-hide"
           >
             {items.map((item, index) => (
               <motion.div
                 key={item.id}
-                className="group w-70 shrink-0"
+                className="group w-25 md:w-55 shrink-0 cursor-pointer "
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
               >
-<div className="rounded-xl overflow-hidden">
+<div className=" rounded-2xl overflow-hidden">
   <img
     src={item.imageSrc}
     width="280"
     height="160"
     className="
-      w-full
-      h-100
+      w-30 md:w-70
+      h-40 md:h-70
       object-cover
       transition-transform
       duration-300
