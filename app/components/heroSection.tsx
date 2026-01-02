@@ -16,8 +16,8 @@ export default function heroSection() {
                             <option value="fr" className="text-black">French</option>
                             <option value="es" className="text-black">Spanish</option>
                         </select>
-                        <button className="bg-red-600 px-3 py-1 whitespace-nowrap rounded-xs"
-                        >Sign In</button>
+                        <Link href="/login" className="bg-red-600 px-3 py-1 whitespace-nowrap rounded-xs"
+                        >Sign In</Link>
 
                     </div>
                 </nav>
